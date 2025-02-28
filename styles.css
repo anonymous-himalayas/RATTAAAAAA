@@ -1,15 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root {
+    /* #e23d28, #45b649 */
     --primary-color: #e23d28;
     --secondary-color: #45b649;
     --dark-color: #333;
     --light-color: #f4f4f4;
     --box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -57,7 +59,7 @@ main {
 }
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('movie-background.jpg');
+    background-image: url('movie-background.jpg');
     color: white;
     text-align: center;
     padding: 8rem 2rem;
@@ -83,6 +85,7 @@ main {
 .features {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    font-size: 2rem;
     gap: 2.5rem;
     padding: 6rem 2rem;
     max-width: 1200px;
@@ -92,6 +95,7 @@ main {
 
 .feature-card {
     background: white;
+    font-size: 1.2rem;
     padding: 2.5rem;
     border-radius: 15px;
     box-shadow: var(--box-shadow);
@@ -127,6 +131,7 @@ main {
 }
 
 .prediction-form {
+    font-size: 1.3rem;
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
@@ -137,7 +142,7 @@ main {
 
 footer {
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     background-color: var(--dark-color);
     color: white;
 }
@@ -190,9 +195,6 @@ footer p {
 }
 
 /* WORK YOU STUPID THING STUPID SCROLLBAR STUPID THING*/
-html {
-    scroll-behavior: smooth;
-}
 
 .feature-card:hover h3 {
     color: var(--secondary-color);
