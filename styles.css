@@ -146,7 +146,7 @@ footer p {
     opacity: 0.9;
 }
 
-/* Animations */
+/* Keyframe stuff */
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -169,7 +169,7 @@ footer p {
     }
 }
 
-/* Media Queries */
+/* Media  */
 @media (max-width: 768px) {
     .hero h2 {
         font-size: 2rem;
@@ -189,17 +189,16 @@ footer p {
     }
 }
 
-/* Smooth Scrolling */
+/* WORK YOU STUPID THING STUPID SCROLLBAR STUPID THING*/
 html {
     scroll-behavior: smooth;
 }
 
-/* Additional Hover Effects */
 .feature-card:hover h3 {
     color: var(--secondary-color);
 }
 
-/* Custom Scrollbar */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
