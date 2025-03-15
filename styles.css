@@ -64,7 +64,7 @@ main {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('movie-background.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/movie-background.jpg');
     color: white;
     text-align: center;
     padding: 10rem 2rem;
